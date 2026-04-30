@@ -41,3 +41,7 @@ feature-based branching pull requests and code reviews consistent commit
 structure
 
 ---
+
+<img width="1000" height="600" alt="Снимок экрана 2026-04-30 в 17 31 03" src="https://github.com/user-attachments/assets/2136524d-2808-4bf3-9d2a-0d796297f152" />
+
+
