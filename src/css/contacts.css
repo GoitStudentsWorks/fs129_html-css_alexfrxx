@@ -1,0 +1,150 @@
+.contacts {
+  padding: 64px 0;
+}
+
+.section-title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-bottom: 48px;
+}
+
+.contacts-wrapper {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+
+  margin-bottom: 16px;
+}
+
+.contacts-subtitle {
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: #000;
+
+  margin-bottom: 24px;
+}
+
+.contacts-title-text {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #000;
+}
+
+.contacts-info {
+  margin-bottom: 32px;
+}
+
+.contacts-info-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contacts-info-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contacts-info-wrapper {
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  color: #000;
+}
+
+.contacts-info-link {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+}
+
+.contacts-form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contacts-form-field {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contacts-form-label {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+}
+
+.contacts-form-input {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 8px 12px;
+  width: 335px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.contacts-input {
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+
+  outline: none;
+  border: none;
+}
+
+.contacts-form-input:focus-within,
+.contacts-form-textarea:focus-within {
+  border: 1px solid #ccc16e;
+}
+
+.error {
+  display: none;
+}
+
+.contacts-form-textarea {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 12px;
+  width: 335px;
+  height: 180px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.contacts-textarea {
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.6);
+
+  padding: 12px;
+  width: 100%;
+  height: 100%;
+
+  resize: none;
+  outline: none;
+  border: none;
+}
+
+.contacts-form-button {
+}
