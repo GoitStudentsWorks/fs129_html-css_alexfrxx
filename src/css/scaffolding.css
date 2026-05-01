@@ -35,6 +35,63 @@ ol {
   list-style: none;
 }
 
+.primary-btn {
+  border: 1px solid #ccc16e;
+  background-color: #ccc16e;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+  transition:
+    background-color 0.4s ease,
+    opacity 0.4s ease,
+    box-shadow 0.4s ease;
+}
+
+.primary-btn:hover,
+.primary-btn:focus {
+  background-color: #fff;
+}
+
+.primary-btn:active {
+  box-shadow: inset 0 0 8px 0 rgba(0, 0, 0, 0.32);
+  background-color: #ccc16e;
+}
+
+.inactive {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.primary-btn.inactive:hover,
+.primary-btn.inactive:focus {
+  background-color: #ccc16e;
+}
+
+.primary-link {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000;
+  text-decoration: none;
+  transition: color 0.4s ease;
+}
+
+.primary-link:hover,
+.primary-link:focus {
+  text-decoration: underline;
+}
+
+.primary-link:active {
+  color: #8668c7;
+}
+
+.primary-link.inactive {
+  text-decoration: none;
+}
+
 .container {
   min-width: 320px;
   max-width: 375px;
