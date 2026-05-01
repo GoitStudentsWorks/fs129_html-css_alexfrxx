@@ -1,14 +1,13 @@
 'use strict';
 
-const burger = document.querySelector('.burger');
+const burger = document.querySelector('.burger'),
+  openBtn = document.querySelector('.openBtn'),
+  closeBtn = document.querySelector('.closeBtn');
 
-document.querySelector('.openBtn').addEventListener('click', openBurger);
-document.querySelector('.closeBtn').addEventListener('click', closeBurger);
-
-function openBurger() {
+openBtn.addEventListener('click', () => {
   burger.classList.add('is-open');
-}
+});
 
-function closeBurger() {
+closeBtn.addEventListener('click', () => {
   burger.classList.remove('is-open');
-}
+});
