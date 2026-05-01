@@ -1,0 +1,32 @@
+.burger {
+  display: none;
+  width: 100vh;
+  height: 100vh;
+  z-index: 999;
+  overflow: hidden;
+  padding: 10.5px 20px;
+}
+
+.burger-logo {
+  margin-bottom: 13.5px;
+}
+
+.burger-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 16px 20px 0 20px;
+}
+
+.burger-cta-btn {
+  margin-top: 64px;
+  text-align: center;
+}
+
+.burger-close-btn {
+  cursor: pointer;
+}
+
+.is-open {
+  display: block;
+}
