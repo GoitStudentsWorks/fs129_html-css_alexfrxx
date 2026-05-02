@@ -1,0 +1,140 @@
+.testimonials {
+  padding: 64px 20px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 24px;
+
+  margin-bottom: 40px;
+}
+.testimonials-svg {
+  stroke: #000;
+}
+
+.testimonials-svg-item:nth-child(5) .testimonials-svg {
+  fill: none;
+}
+.testimonials-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.testimonials-item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex-wrap: nowrap;
+}
+.testimonials-title {
+  font-size: 48px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  text-align: center;
+}
+
+.testimonials-main-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+.testimonials-svg {
+  width: 24px;
+  height: 24px;
+}
+
+.img-box {
+  height: 260px;
+}
+
+.testimonials-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonials-wrapper {
+  background-color: #f2f2f2;
+  width: 100%;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 640px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.reverse .img-box {
+  order: 3;
+}
+
+.reverse .second {
+  order: 2;
+}
+
+.reverse .testimonials-wrapper {
+  order: 1;
+}
+
+.testimonials-svg-list {
+  display: flex;
+  margin-bottom: 24px;
+}
+.testimonials-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: auto;
+}
+
+.testimonials-author {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+}
+@media only screen and (min-width: 768px) {
+  .testimonials {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .title-container {
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+  .testimonials-item {
+    flex-direction: row;
+    gap: 32px;
+    flex-wrap: nowrap;
+  }
+
+  .img-box {
+    min-width: 203px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .testimonials {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+  .container {
+    flex-direction: column;
+  }
+
+  .img-box {
+    height: 260px;
+    min-width: 304px;
+  }
+  .title-container {
+    margin-top: 0;
+    margin-bottom: 80px;
+  }
+}
