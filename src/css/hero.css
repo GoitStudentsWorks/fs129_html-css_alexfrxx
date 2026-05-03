@@ -11,9 +11,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .hero-title {
@@ -26,7 +23,6 @@
 }
 
 .hero-text {
-  font-family: 'Mulish', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
@@ -35,46 +31,13 @@
   margin-bottom: 32px;
 }
 
-.primary-btn {
-  border: 1px solid #ccc16e;
-  background-color: #ccc16e;
-  display: block;
-  text-decoration: none;
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #000;
-  transition:
-    background-color 0.4s ease,
-    opacity 0.4s ease,
-    box-shadow 0.4s ease;
-}
-
-.primary-btn:hover,
-.primary-btn:focus {
-  background-color: #fff;
-}
-
-.primary-btn:active {
-  box-shadow: inset 0 0 8px 0 rgba(0, 0, 0, 0.32);
-  background-color: #ccc16e;
-}
-
 .hero-btn {
   padding: 6px;
   max-width: 100%;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
-  .hero .container {
-    max-width: 768px;
-    padding: 0 32px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
   .hero {
     padding: 160px 0;
     background-image:
@@ -93,19 +56,11 @@
   }
 
   .hero-btn {
-    padding: 6px 67.5px;
+    max-width: 217px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .hero .container {
-    padding: 0 64px;
-    max-width: 1440px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
   .hero {
     padding: 224px 0;
     background-image:
@@ -126,6 +81,6 @@
   }
 
   .hero-btn {
-    padding: 6px 55px;
+    max-width: 192px;
   }
 }
