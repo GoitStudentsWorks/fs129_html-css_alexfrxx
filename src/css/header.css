@@ -1,11 +1,12 @@
-.header {
-  padding: 12px 0;
-}
-
 .header-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.logo {
+  width: 160px;
+  height: 68px;
 }
 
 .logo-image {
@@ -22,8 +23,8 @@
 }
 
 .burger-btn {
+  background-color: transparent;
   border: none;
-  background-color: black;
   cursor: pointer;
 }
 
@@ -31,6 +32,11 @@
   .header {
     padding: 18px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  .logo {
+    width: 84px;
+    height: 36px;
   }
 
   .header-cta-btn {
