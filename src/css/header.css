@@ -41,7 +41,9 @@
 
   .header-cta-btn {
     display: block;
-    padding: 6px 18.5px;
+    padding: 6px;
+    width: 119px;
+    text-align: center;
   }
 
   .logo-image {
@@ -78,6 +80,6 @@
 
   .header-cta-btn {
     margin-left: auto;
-    padding: 6px 55px;
+    width: 192px;
   }
 }
