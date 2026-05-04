@@ -32,6 +32,7 @@
 
 .img-box {
   height: 260px;
+  width: 100%;
 }
 
 .testimonials-image {
@@ -72,14 +73,19 @@
     gap: 32px;
   }
 
-  .img-box {
-    min-width: 203px;
-  }
   .testimonials-text {
     margin-bottom: 43px;
   }
   .testimonials-main-text {
     margin-bottom: 40px;
+  }
+  .img-box {
+    height: 260px;
+    width: 203px;
+  }
+  .testimonials-wrapper {
+    width: 250px;
+    height: 260px;
   }
 }
 
@@ -97,13 +103,20 @@
   .testimonials-title {
     font-size: 48px;
   }
+  .testimonials-list {
+    gap: 32px;
+  }
 
   .img-box {
     height: 260px;
-    min-width: 304px;
+    width: 304px;
   }
   .title-container {
     margin-top: 0;
     margin-bottom: 80px;
+  }
+  .testimonials-wrapper {
+    width: 640px;
+    height: 260px;
   }
 }
