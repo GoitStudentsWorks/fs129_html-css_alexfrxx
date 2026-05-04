@@ -10,7 +10,7 @@
   margin-bottom: 40px;
 }
 .testimonials-svg {
-  stroke: #000;
+  fill: black;
 }
 
 .testimonials-svg-item:nth-child(5) .testimonials-svg {
