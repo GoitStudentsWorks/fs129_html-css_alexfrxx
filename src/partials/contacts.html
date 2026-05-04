@@ -1,0 +1,100 @@
+<section class="contacts" id="contacts">
+  <div class="container">
+    <p class="contacts-wrapper">Connect</p>
+    <h2 class="contacts-subtitle">Order your unique jewelry</h2>
+    <p class="contacts-title-text">We'd love to hear more details from you!</p>
+
+    <div class="contacts-content">
+      <ul class="contacts-info-list">
+        <li class="contacts-info-item">
+          <svg class="contacts-info-icon" width="32" height="32">
+            <use href="../img/sprite.svg#icon-email"></use>
+          </svg>
+          <h3 class="contacts-info-title">Email</h3>
+          <a
+            class="primary-link contacts-info-link"
+            href="mailto:info@handmadejewelry.com"
+            target="_blank"
+            >info@handmadejewelry.com</a
+          >
+        </li>
+
+        <li class="contacts-info-item">
+          <svg class="contacts-info-icon" width="32" height="32">
+            <use href="../img/sprite.svg#icon-phone"></use>
+          </svg>
+          <h3 class="contacts-info-title">Phone</h3>
+          <a
+            class="primary-link contacts-info-link"
+            href="tel:+15550000000"
+            target="_blank"
+            >+1 (555) 000-0000</a
+          >
+        </li>
+
+        <li class="contacts-info-item">
+          <svg class="contacts-info-icon" width="32" height="32">
+            <use href="../img/sprite.svg#icon-location"></use>
+          </svg>
+          <h3 class="contacts-info-title">Office</h3>
+          <a
+            class="primary-link contacts-info-link"
+            href="https://www.google.com/maps/place/76+Oakington+Manor+Dr,+Wembley+HA9+6LZ,+%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F/@51.5528335,-0.2803963,16.95z/data=!4m6!3m5!1s0x4876118169c17941:0x65ed18c0288892df!8m2!3d51.5528624!4d-0.277815!16s%2Fg%2F11cpcv9b9_?entry=ttu&g_ep=EgoyMDI2MDQyOC4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank"
+            rel="noopener noreferrer"
+            >76-8 Oakington Manor Dr, London, UK</a
+          >
+        </li>
+      </ul>
+
+      <form class="contacts-form">
+        <div class="contacts-form-field">
+          <label class="contacts-form-label" for="name">Name*</label>
+          <input
+            class="contacts-input"
+            type="text"
+            id="name"
+            name="name"
+            pattern="^[a-zA-Z\s.]{5,28}$"
+            title="Enter 5 to 28 letters (A–Z only)"
+            required
+            placeholder="Tony"
+          />
+          <span class="error">Invalid name</span>
+        </div>
+
+        <div class="contacts-form-field">
+          <label class="contacts-form-label" for="phone">Phone*</label>
+          <input
+            class="contacts-input"
+            type="tel"
+            id="phone"
+            name="phone"
+            pattern="^[+][0-9\s]{10,14}$"
+            title="Format: +1 234 123 23"
+            required
+            placeholder="+1 234 123 23"
+          />
+          <span class="error">Invalid phone number</span>
+        </div>
+
+        <div class="contacts-form-field">
+          <label class="contacts-form-label" for="comment"
+            >Describe what you want</label
+          >
+          <textarea
+            class="contacts-textarea"
+            id="comment"
+            name="comment"
+            maxlength="500"
+            placeholder="Type your message..."
+          ></textarea>
+        </div>
+
+        <button class="primary-btn contacts-cta-btn" type="submit">
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
