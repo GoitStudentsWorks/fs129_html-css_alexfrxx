@@ -143,10 +143,6 @@
 /* ---------- TABLET---------- */
 
 @media (min-width: 768px) {
-  .container {
-    padding: 0 32px;
-  }
-
   .contacts-info-list {
     flex-direction: row;
     gap: 25px;
@@ -166,10 +162,6 @@
 /* ---------- DESKTOP---------- */
 
 @media (min-width: 1440px) {
-  .container {
-    padding: 0 64px;
-  }
-
   .contacts-content {
     flex-direction: row-reverse;
     align-items: flex-start;
