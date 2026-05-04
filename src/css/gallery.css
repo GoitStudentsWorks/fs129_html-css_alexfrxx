@@ -35,7 +35,7 @@
   object-fit: cover;
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .gallery-text {
     margin-bottom: 80px;
   }
@@ -75,9 +75,13 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media (min-width: 1440px) {
   .gallery-list {
     max-height: 1200px;
+  }
+
+  .gallery-title {
+    font-size: 48px;
   }
 
   .gallery-item {
