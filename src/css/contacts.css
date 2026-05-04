@@ -172,7 +172,7 @@
   }
 
   .contacts-info-item {
-    width: (100% - 32px) / 2;
+    flex: 0 0 calc(50% - 16px);
   }
 
   .contacts-subtitle {
