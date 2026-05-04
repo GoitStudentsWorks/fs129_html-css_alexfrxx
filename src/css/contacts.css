@@ -61,10 +61,8 @@
 }
 
 .contacts-info-link {
-  font-size: 16px;
-  line-height: 1.5;
+  text-decoration-skip-ink: none;
   text-decoration: underline;
-  color: #000;
 }
 
 /* --------- form-block --------- */
@@ -137,7 +135,7 @@
 
 .contacts-cta-btn {
   width: 100%;
-  padding: 6px 141px;
+  padding: 6px;
 }
 
 /* ---------- TABLET---------- */
@@ -148,14 +146,8 @@
     gap: 25px;
   }
 
-  .contacts-info-item {
-    flex: 1 1 0;
-    min-width: 0;
-  }
-
   .contacts-cta-btn {
     max-width: 249px;
-    padding: 6px 98px;
   }
 }
 
@@ -169,18 +161,18 @@
   }
 
   .contacts-form {
-    flex: 0 0 640px;
-    min-width: 0;
+    width: 50%;
   }
 
   .contacts-info-list {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 32px;
+    width: 50%;
   }
 
-  .contacts-info-item:last-child {
-    flex: 0 0 100%;
+  .contacts-info-item {
+    width: (100% - 32px) / 2;
   }
 
   .contacts-subtitle {
@@ -189,6 +181,5 @@
 
   .contacts-cta-btn {
     max-width: 192px;
-    padding: 6px 69.5px;
   }
 }
