@@ -1,0 +1,115 @@
+.about {
+    padding: 64px 0;
+    background-color: #ffffff;
+}
+
+.about-container {
+    width: 335px;
+    margin: 0 auto;
+}
+
+.about-img {
+    display: block;
+    width: 335px;
+    height: 335px;
+    object-fit: cover;
+    margin-bottom: 32px;
+}
+
+.about-content {
+    width: 335px;
+}
+
+.about-title {
+    margin: 0 0 24px 0;
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+.about-text {
+    margin: 0 0 24px 0;
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.about-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.about-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.about-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    fill: currentColor;
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+    .about {
+        padding: 80px 0;
+    }
+
+    .about-container {
+        width: 704px;
+    }
+
+    .about-img {
+        width: 704px;
+        height: 456px;
+    }
+
+    .about-content {
+        width: 704px;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1440px) {
+    .about {
+        padding: 112px 0;
+    }
+
+    .about-container {
+        width: 1312px;
+        display: flex;
+        align-items: center;
+        gap: 80px;
+    }
+
+    .about-img {
+        width: 640px;
+        height: 456px;
+        margin-bottom: 0;
+    }
+
+    .about-content {
+        width: 592px;
+    }
+
+    .about-title {
+        font-size: 48px;
+    }
+}
