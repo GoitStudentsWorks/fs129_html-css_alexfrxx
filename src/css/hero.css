@@ -4,8 +4,8 @@
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     image-set(
-      url(/img/photo-hero-mob1x.webp) 1x,
-      url(/img/photo-hero-mob2x.webp) 2x
+      url(/img/webp/photo-hero-mob1x.webp) 1x,
+      url(/img/webp/photo-hero-mob2x.webp) 2x
     );
 
   background-size: cover;
@@ -42,8 +42,8 @@
     background-image:
       linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       image-set(
-        url(/img/photo-hero-tablet1x.webp) 1x,
-        url(/img/photo-hero-tablet2x.webp) 2x
+        url(/img/webp/photo-hero-tablet1x.webp) 1x,
+        url(/img/webp/photo-hero-tablet2x.webp) 2x
       );
   }
   .hero-title {
@@ -65,8 +65,8 @@
     background-image:
       linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       image-set(
-        url(/img/photo-hero-desktop1x.webp) 1x,
-        url(/img/photo-hero-desktop2x.webp) 2x
+        url(/img/webp/photo-hero-desktop1x.webp) 1x,
+        url(/img/webp/photo-hero-desktop2x.webp) 2x
       );
   }
 
