@@ -7,7 +7,8 @@
       url(/img/webp/photo-hero-mob1x.webp) 1x,
       url(/img/webp/photo-hero-mob2x.webp) 2x
     );
-
+  max-width: 1440px;
+  margin: 0 auto;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
