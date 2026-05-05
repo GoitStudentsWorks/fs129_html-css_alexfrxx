@@ -175,6 +175,10 @@
     flex: 0 0 calc(50% - 16px);
   }
 
+  .contacts-info-item:nth-child(3) {
+    flex: 0 0 100%;
+  }
+
   .contacts-subtitle {
     font-size: 48px;
   }
