@@ -14,11 +14,11 @@ closeBtn.addEventListener('click', () => {
   burger.classList.remove('is-open');
 });
 
-for (let link of links) {
+links.forEach(link => {
   link.addEventListener('click', () => {
     burger.classList.remove('is-open');
   });
-}
+});
 
 orderBtn.addEventListener('click', () => {
   burger.classList.remove('is-open');
