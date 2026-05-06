@@ -4,12 +4,53 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/handmade-jewelry-landing/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover the art of handmade jewelry — each piece is crafted with love, inspired by nature and focused on sustainability. Unique designs that tell a story and celebrate individuality."
+    />
+
+    <meta
+      name="keywords"
+      content="handmade jewelry, artisan jewelry, sustainable jewelry, unique jewelry, custom jewelry, handmade earrings, handmade necklaces, handmade bracelets, jewelry design, ethical jewelry, craft jewelry, personalized jewelry, gift jewelry, jewelry boutique, slow fashion, natural inspiration jewelry"
+    />
+
+    <meta name="author" content="Handmade Jewelry Studio" />
+
+    <meta
+      property="og:title"
+      content="Discover the Art of Handmade Jewelry | Unique, Sustainable Designs"
+    />
+
+    <meta
+      property="og:description"
+      content="Each piece of our handmade jewelry is crafted with love and inspired by nature. Explore unique, sustainable designs that tell a personal story."
+    />
+
+    <meta property="og:type" content="website" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <link
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Sora:wght@400&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="/handmade-jewelry-landing/assets/photo-hero-mob1x-CTfjnJlZ.webp"
+      media="(max-width: 767px)"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="/handmade-jewelry-landing/assets/photo-hero-tablet1x-qc32G44J.webp"
+      media="(min-width: 768px) and (max-width: 1439px)"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="/handmade-jewelry-landing/assets/photo-hero-desktop1x-DUdHPTFr.webp"
+      media="(min-width: 1440px)"
     />
     <title>Handmade Jewelry</title>
     <script type="module" crossorigin src="/handmade-jewelry-landing/index.js"></script>
@@ -20,33 +61,61 @@
   <div class="container">
     <div class="header-wrapper">
       <nav class="main-navigation">
-        <a class="header-logo" href="./index.html">
+        <a class="header-logo" href="./index.html" aria-label="Go to homepage">
           <svg class="logo" viewBox="0 0 160 68">
             <use href="/handmade-jewelry-landing/assets/sprite--yWryyXh.svg#icon-logo"></use>
           </svg>
         </a>
         <ul class="header-list">
           <li class="header-item">
-            <a class="primary-link header-link" href="#about">About us</a>
+            <a
+              class="primary-link header-link"
+              href="#about"
+              aria-label="Go to about section"
+              >About us</a
+            >
           </li>
           <li class="header-item">
-            <a class="primary-link header-link" href="#benefits">Benefits</a>
+            <a
+              class="primary-link header-link"
+              href="#benefits"
+              aria-label="Go to benefits section"
+              >Benefits</a
+            >
           </li>
           <li class="header-item">
-            <a class="primary-link header-link" href="#gallery">Gallery</a>
+            <a
+              class="primary-link header-link"
+              href="#gallery"
+              aria-label="Go to gallery section"
+              >Gallery</a
+            >
           </li>
           <li class="header-item">
-            <a class="primary-link header-link" href="#testimonials"
+            <a
+              class="primary-link header-link"
+              href="#testimonials"
+              aria-label="Go to testimonials section"
               >Testimonials</a
             >
           </li>
           <li class="header-item">
-            <a class="primary-link header-link" href="#contacts">Contacts</a>
+            <a
+              class="primary-link header-link"
+              href="#contacts"
+              aria-label="Go to contacts section"
+              >Contacts</a
+            >
           </li>
         </ul>
-        <a href="#contacts" class="primary-btn header-cta-btn">Order Now</a>
+        <a
+          href="#contacts"
+          class="primary-btn header-cta-btn"
+          aria-label="Order"
+          >Order Now</a
+        >
       </nav>
-      <button type="button" class="burger-btn">
+      <button type="button" class="burger-btn" aria-label="Open menu">
         <svg width="16" height="12">
           <use href="/handmade-jewelry-landing/assets/sprite--yWryyXh.svg#icon-menu"></use>
         </svg>
@@ -356,6 +425,7 @@
             href="mailto:info@handmadejewelry.com"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Our email"
             >info@handmadejewelry.com</a
           >
         </li>
@@ -370,6 +440,7 @@
             href="tel:+15550000000"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Our phone number"
             >+1 (555) 000-0000</a
           >
         </li>
@@ -384,6 +455,7 @@
             href="https://www.google.com/maps/place/76+Oakington+Manor+Dr,+Wembley+HA9+6LZ,+%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F/@51.5528335,-0.2803963,16.95z/data=!4m6!3m5!1s0x4876118169c17941:0x65ed18c0288892df!8m2!3d51.5528624!4d-0.277815!16s%2Fg%2F11cpcv9b9_?entry=ttu&g_ep=EgoyMDI2MDQyOC4wIKXMDSoASAFQAw%3D%3D"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Our location"
             >76-8 Oakington Manor Dr, London, UK</a
           >
         </li>
@@ -433,7 +505,11 @@
           ></textarea>
         </div>
 
-        <button class="primary-btn contacts-cta-btn" type="submit">
+        <button
+          class="primary-btn contacts-cta-btn"
+          type="submit"
+          aria-label="Form submit button"
+        >
           Submit
         </button>
       </form>
@@ -452,6 +528,7 @@
             href="./index.html"
             class="footer-logo"
             aria-label="Handmade Jewelry — go to homepage"
+            aria-label="Go to homepage"
           >
             <svg
               class="footer-logo-icon"
@@ -471,6 +548,7 @@
               href="https://www.facebook.com/"
               target="_blank"
               aria-label="Facebook"
+              aria-label="Go to our facebook"
               rel="noopener noreferrer"
             >
               <svg
@@ -490,6 +568,7 @@
               target="_blank"
               aria-label="Instagram"
               rel="noopener noreferrer"
+              aria-label="Go to our instagram"
             >
               <svg
                 class="footer-social-icon"
@@ -508,6 +587,7 @@
               target="_blank"
               aria-label="X (Twitter)"
               rel="noopener noreferrer"
+              aria-label="Go to our twitter"
             >
               <svg
                 class="footer-social-icon"
@@ -525,6 +605,7 @@
               href="https://www.linkedin.com/"
               target="_blank"
               aria-label="LinkedIn"
+              aria-label="Go to our linkedin"
               rel="noopener noreferrer"
             >
               <svg
@@ -544,6 +625,7 @@
               target="_blank"
               aria-label="YouTube"
               rel="noopener noreferrer"
+              aria-label="Go to our youtube"
             >
               <svg
                 class="footer-social-icon"
@@ -561,19 +643,44 @@
       <nav class="footer-nav" aria-label="Footer navigation">
         <ul class="footer-nav-list">
           <li class="footer-nav-item">
-            <a class="primary-link" href="#about">About us</a>
+            <a
+              class="primary-link"
+              href="#about"
+              aria-label="Go to about section"
+              >About us</a
+            >
           </li>
           <li class="footer-nav-item">
-            <a class="primary-link" href="#benefits">Benefits</a>
+            <a
+              class="primary-link"
+              href="#benefits"
+              aria-label="Go to benefits section"
+              >Benefits</a
+            >
           </li>
           <li class="footer-nav-item">
-            <a class="primary-link" href="#gallery">Gallery</a>
+            <a
+              class="primary-link"
+              href="#gallery"
+              aria-label="Go to gallery section"
+              >Gallery</a
+            >
           </li>
           <li class="footer-nav-item">
-            <a class="primary-link" href="#testimonials">Testimonials</a>
+            <a
+              class="primary-link"
+              href="#testimonials"
+              aria-label="Go to testimonials section"
+              >Testimonials</a
+            >
           </li>
           <li class="footer-nav-item">
-            <a class="primary-link" href="#contacts">Contacts</a>
+            <a
+              class="primary-link"
+              href="#contacts"
+              aria-label="Go to contacts section"
+              >Contacts</a
+            >
           </li>
         </ul>
       </nav>
@@ -591,12 +698,16 @@
   <div class="container">
     <nav class="burger-navigation">
       <div class="burger-nav-wrapp">
-        <a class="burger-logo" href="/src/index.html">
+        <a
+          class="burger-logo"
+          href="/src/index.html"
+          aria-label="Go to homepage"
+        >
           <svg width="160" height="68">
             <use href="/handmade-jewelry-landing/assets/sprite--yWryyXh.svg#icon-logo"></use>
           </svg>
         </a>
-        <button type="button" class="burger-close-btn">
+        <button type="button" class="burger-close-btn" aria-label="Close menu">
           <svg width="12" height="12">
             <use href="/handmade-jewelry-landing/assets/sprite--yWryyXh.svg#icon-close"></use>
           </svg>
@@ -605,25 +716,50 @@
 
       <ul class="burger-list">
         <li class="burger-item">
-          <a class="primary-link burger-link" href="#about">About us</a>
+          <a
+            class="primary-link burger-link"
+            href="#about"
+            aria-label="Go to about us section"
+            >About us</a
+          >
         </li>
         <li class="burger-item">
-          <a class="primary-link burger-link" href="#benefits">Benefits</a>
+          <a
+            class="primary-link burger-link"
+            href="#benefits"
+            aria-label="Go to benefits section"
+            >Benefits</a
+          >
         </li>
         <li class="burger-item">
-          <a class="primary-link burger-link" href="#gallery">Gallery</a>
+          <a
+            class="primary-link burger-link"
+            href="#gallery"
+            aria-label="Go to gallery section"
+            >Gallery</a
+          >
         </li>
         <li class="burger-item">
-          <a class="primary-link burger-link" href="#testimonials"
+          <a
+            class="primary-link burger-link"
+            href="#testimonials"
+            aria-label="Go to testimonials section"
             >Testimonials</a
           >
         </li>
         <li class="burger-item">
-          <a class="primary-link burger-link" href="#contacts">Contacts</a>
+          <a
+            class="primary-link burger-link"
+            href="#contacts"
+            aria-label="Go to contacts section"
+            >Contacts</a
+          >
         </li>
       </ul>
 
-      <a href="#contacts" class="primary-btn burger-cta-btn">Order Now</a>
+      <a href="#contacts" class="primary-btn burger-cta-btn" aria-label="Order"
+        >Order Now</a
+      >
     </nav>
   </div>
 </div>
