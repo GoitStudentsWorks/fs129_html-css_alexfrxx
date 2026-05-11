@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/handmade-jewelry-landing/",
+    "build": "vite build --base=/fs129_html-css_alexfrxx/",
     "preview": "vite preview"
   },
   "devDependencies": {
